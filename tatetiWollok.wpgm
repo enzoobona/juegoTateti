@@ -1,0 +1,12 @@
+import wollok.game.*
+import selector.*
+
+program tatetiWollok {
+    game.height(3)
+    game.width(3)
+    game.cellSize(300)
+    game.boardGround("backgroundtateti.png")
+    game.addVisualCharacter(selector)
+
+    game.start()
+}
